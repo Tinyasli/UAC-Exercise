@@ -1,8 +1,8 @@
 package main;
 
 public class EmailMessage extends Message {
-	public EmailMessage(ILogin logintype, String emailPengirim, String emailPenerima, String text) {
-		super(logintype, emailPengirim, emailPenerima, text);
+	public EmailMessage(ILogin logintype, String Pengirim, String Penerima, String text) {
+		super(logintype, Pengirim, Penerima, text);
 	}
 
 	@Override

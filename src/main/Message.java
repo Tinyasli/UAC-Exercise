@@ -7,10 +7,10 @@ public abstract class Message{
 	private String Penerima;
 	private String text;
 	
-	public Message(ILogin logintype, String emailPengirim, String emailPenerima, String text) {
+	public Message(ILogin logintype, String Pengirim, String Penerima, String text) {
 		this.login = logintype;
-		this.pengirim = emailPengirim;
-		this.Penerima = emailPenerima;
+		this.pengirim = Pengirim;
+		this.Penerima = Penerima;
 		this.text = text;
 	}
 	
@@ -30,8 +30,8 @@ public abstract class Message{
 	}
 
 
-	public void setEmailPengirim(String emailPengirim) {
-		this.pengirim = emailPengirim;
+	public void setEmailPengirim(String Pengirim) {
+		this.pengirim = Pengirim;
 	}
 
 
@@ -40,8 +40,8 @@ public abstract class Message{
 	}
 
 
-	public void setEmailPenerima(String emailPenerima) {
-		this.Penerima = emailPenerima;
+	public void setEmailPenerima(String Penerima) {
+		this.Penerima = Penerima;
 	}
 
 
